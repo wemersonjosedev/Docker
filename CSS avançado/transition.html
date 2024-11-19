@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wemerson José da Cunha">
+    <title>Transition</title>
+
+    <style>
+        div{
+
+            --anima: cubic-bezier(.2,.2,.5,.2);
+
+            background-color: orange;
+            width: 200px;
+            height: 300px;
+            margin: 100px;
+            transition-property: all;
+            transition-duration: 3s, 1s;
+            transition-timing-function: cubic-bezier(.92,.42,.15,.82);
+            transition-delay: 0s;
+
+            /* transition: property(all) duration(0s) function(ease) delay(0s) na forma abriação*/
+
+            transition: width 1.5s var(--anima) ;
+        }
+
+        div:hover{
+            background-color: rgb(255, 0, 0);
+            border-radius: 50%;
+            width: 500px;
+        }
+        /*A função do transition é básicamente animar algo. Lembrando que não é possivel animar nenhum texto, somente números.*/
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

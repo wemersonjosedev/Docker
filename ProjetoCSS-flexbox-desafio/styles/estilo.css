@@ -1,0 +1,69 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/ProjetoCSS-flexbox-desafio/imagens/bg-2.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: none;
+}
+
+.title{
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: white;
+    text-shadow: 1px 4px 3px rgb(0, 0, .2);
+    margin-bottom: 0;
+}
+
+.bloco-div__lista{
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.text{
+    color: white;
+    display: flex;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .8);
+    border-bottom: 4px solid white;
+    margin-top: 25px;
+}
+
+.bloco-div{
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    margin-top: 10;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    width: 90%;
+    max-width: 995px;
+    height: 80%;
+    max-height: 500px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.bloco-div__text{
+    display:flex ;
+    background-color:rgb(37, 37, 37);
+    color: white;
+    margin-top: 0;
+    padding: 13px;
+    height: 15px;
+}
+
+.bloco-div__img{
+ display: flex;
+}

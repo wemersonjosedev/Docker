@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Roboto Regular;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto Light;
+    src: url(Roboto/Roboto-Light.ttf);
+}
+
+html{
+    background-color: #035742;
+    font-family: Roboto Light;
+    color: #035742;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main{
+    width: 90%;
+    min-width: 10em;
+    max-width: 25em;
+    background-color: #ffffff;
+    padding: 2em;
+    box-shadow: -.4em 0em rgba(0, 0, 0, .5);
+    
+}
+
+.login{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input, label{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    flex-shrink: inherit;
+    color: black;
+    border:transparent ;
+}
+
+label{
+    margin-top: .5em;
+    margin-bottom: .5rem;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+input{
+    /* padding-bottom: 1.5em; */
+    margin-bottom: 1em;
+    padding: 1em .2em;
+    border-bottom: .3px solid #035742 ;
+    outline: none;
+    font-size: 1rem;
+    transition: padding-left .08s;
+}
+
+input:focus{
+    outline: 2px solid #035742;
+    padding-left: .3rem;
+}
+
+.title{
+    color: #035742;
+    padding: .4em;
+    padding-left: 0;
+    padding-bottom: .3em;
+    font-size: 3em;
+    margin-top: 5em;
+    font-weight: 300;
+}
+
+.links{
+    display: flex;
+    gap: 5em;
+    border: transparent;
+}
+
+.login{
+    color: black;
+    font-size: .7em;
+    font-weight: bolder;
+}
+
+.btn{
+    padding: .8em;
+    text-align: center;
+    border: 0;
+    border-radius: .2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    background-color: #035742;
+}
+
+.btn2{
+    padding: .8em;
+    text-align: center;
+    border: 0;
+    border-radius: .2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+}
+
+.btn2 a {
+    color: #035742;
+    text-decoration: none;
+}
+
+.senha{
+    margin-left: 8.6em;
+}

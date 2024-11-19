@@ -1,0 +1,24 @@
+a[href="#"]:not(.link-ok){ 
+    opacity: .2;
+
+    /* [] Seleciona modifica de acordo com a definição no [] com antes a tag ultilizada ou a class */
+    /* :not() faz com que tudo que estiver de acordo com que é expresso no () não seja modificado pelo código a baixo.  */
+}
+
+a[href^="http"]{
+    color: red;
+
+    /* Já o ^="" faz com que tudo que inicia com o que é expresso no "" seja efetuado as modificações no código abaixo. */
+}
+
+a[href$=".pdf"]{
+    color: green;
+
+    /* Com o $="" fazemos o contrario do anterior, ele faz com que tudo que termina com o que é expresso no "" seja modificado de acordo com o código abaixo. */
+}
+
+a[target="_blank"]{
+    text-decoration: none;
+
+    /* Esse faz com que tudo que estiver de acordo com o [] seja modificado. */
+}

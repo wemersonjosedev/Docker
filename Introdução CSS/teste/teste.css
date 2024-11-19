@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(207, 191, 191);
+}
+h1{
+    color: black;
+    font-family: Arial, Helvetica,;
+    font-size:50px ;
+    font-style: italic;
+    background-color: rgb(4, 158, 158);
+    text-align: center;
+    text-shadow: none;
+}
+h2{
+    text-align: center;
+    font-size: 40px;  
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+    font-weight: normal;
+}
+ol {
+    font-size: 20px;
+    font-weight: bolder;
+}
+p{
+    font-size: 21px;
+    text-align: center;
+    text-decoration: underline;
+}

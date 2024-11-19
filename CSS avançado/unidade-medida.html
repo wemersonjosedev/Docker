@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wemerson José">
+    <title>Unidades de Medidas</title>
+
+    <link rel="stylesheet" href="">
+
+    <style>
+        html{
+            font-size: 65.5%;
+            padding-bottom: 550px;
+        }
+
+        h1{
+            font-size: 3.4em;
+        }
+
+        b{
+            color: red;
+            font-size:  1em;
+            /* 30 px*/
+            font-size:  3rem;
+            /* 30px */
+            font-size: 50%;
+        }
+
+        p{
+            font-size: 3em;
+            /* 30px */
+            width: 10em;
+            background-color: #ccc;
+        }
+
+        .porcentagem{
+            width: 60%;
+            height: 500px;
+            background-color: yellow;
+        }
+
+        .porcentagem p{
+            background-color: orange;
+            padding-top: 50%;
+            width: 50%;
+            font-size: 1rem;
+        }
+
+        .padding-em{
+            background-color: red;
+        }
+
+        .padding-em p{
+            background-color: transparent;
+            margin: 0;
+            padding: 1em;
+            /* O meu padding quando possui a unidade em ele se conecta com o meu font-size, fazendo assim com que na medida que eu mude o tamanho da minha fonte o meu padding também muda deixando sempre a o espaço pedido. */
+            font-size: 30px;
+        }
+        .viewport-container{
+            font-size: 3rem;
+            height: auto;
+        }
+
+        .viewport{
+            width: 90vw;
+            height: 90vw;
+            background-color: rgba(0, 98, 255, 0.366);
+        }
+
+        .em {
+            width:20em;
+            padding: 1em;
+            margin: 1em;
+            background-color: orange;
+            font-size: 2em;
+        }
+
+        .ch {
+            width:20ch;
+            width: 180px;
+            padding: 1em;
+            margin: 1em;
+            background-color: orange;
+            font-size: 3em;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Unidades de Medidas</h1>
+
+    <p>Lorem ipsum dolor sit amet <b>texto em negrito</b> consectetur adipisicing elit. Enim voluptatum explicabo nobis aspernatur blanditiis, quaerat velit. Quod cum vitae quis accusamus? Voluptatibus, ipsa! Voluptatem obcaecati ea veniam, consequuntur facilis dolore.</p>
+
+    <div class="porcentagem">
+        <p>%</p>
+    </div>
+
+    <div class="padding-em">
+        <p>padding com em</p>
+    </div>
+
+    <div class="porcentagem viewport-container">
+    
+        <div class="viewport">viewport</div>
+    </div>
+
+    <div class="em">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum cumque dolores incidunt quibusdam, totam ad nemo nihil odio eum nam.
+    </div>
+
+    <div class="ch">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam neque dolorum ipsam illo, tempora possimus tempore doloribus deleniti! Saepe, cumque.
+    </div>
+</body>
+</html>

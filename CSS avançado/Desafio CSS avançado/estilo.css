@@ -1,0 +1,240 @@
+body,html{
+  min-height: 100%; 
+  font-family: roboto;
+}
+    
+@font-face {
+    font-family: Roboto;
+
+    src:
+    url(RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Federo;
+    src: url(Federo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Viaoda-Libre;
+    src: url(ViaodaLibre-Regular.ttf);
+}
+
+.header-main{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(topo.jpg);
+    height: 850px;
+    background-size:cover;
+    justify-content: space-between;
+}
+
+.title-main{
+    font-size: 40px;
+    margin-left: 150px;
+    font-family: Viaoda-Libre;
+}
+
+
+.seção-main{
+    display: flex;
+    margin: 0;
+    background-color: #162028;
+    width: 100%;
+    color: white;
+    padding: 0px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.menu-main{
+    display: inline-flex;
+    padding: 20px;
+    margin: 0;
+    gap: 80px;
+    font-family: Verdana;
+    letter-spacing: 5px;
+}
+
+.menu-main li :hover{
+    
+   text-decoration: underline;
+}
+
+.menu-main li{
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+.menu-main a {
+    display: flex;
+    flex-wrap: wrap;
+    color: #425564;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.section1{
+    text-align: center;
+    color:#555;
+}
+
+.title-section1{
+    color: #333333;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: Viaoda-Libre;
+}
+
+.text-main{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    line-height: 50px;
+    text-align: justify center;
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.conteudo-div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.fotos-div{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagen-div{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+}
+
+.img-div{
+    box-shadow:15px 15px 15px #3b3b3b;
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 0;
+}
+
+.imagen-div__title{
+    align-items: center;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: Roboto;
+}
+
+.imagen-div__text{
+    align-items: center;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.img-div{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+
+.section2-div{
+    color: white;
+    background-image: url(bg_detalhe.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    
+}
+
+.section2-title{
+    font-family: Viaoda-Libre;
+    font-weight:normal;
+    font-size: 50px;
+    padding: 90px;
+    padding-bottom: 0;
+    margin-left: 75px;
+}
+
+.section2-text{
+    display: flex;
+    text-align:left;
+    width: 600px;
+    font-weight:normal;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 140px;
+
+}
+
+.fotos-div li{
+    margin-right: 40px;
+}
+
+footer{
+    padding: 20px;
+    background-color: #0b171f;
+    letter-spacing: 5px;
+    color:  #6f8597;
+    text-align: center;
+    align-items: center;
+}
+
+.Conteúdo-adicional{
+    background-image: url(design-de-fundo-abstrato-branco_574815-14.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+.modelos-ul{
+    list-style-type: none;
+}
+
+.modelos-div{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    align-items: center;
+}
+
+.modelos-ul{
+    padding: 2px;
+    align-items: center;
+}
+.modelo1-div{
+    padding: 20px;
+    align-items: center;
+}
+
+.img-div{
+    width: 200px;
+}
+
+.nome{
+   
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: Viaoda-Libre;
+
+}
+.text hr{
+    width: 100px;
+}
+.text{
+    width: 265px;
+    margin-left: 10px;
+    font-size: 10px;
+    font-family: Federo;
+}

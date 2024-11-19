@@ -1,0 +1,74 @@
+body{
+    font-family: arial;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+.titulo{
+    font-family: verdana;
+    background-color: rgb(191, 183, 255);
+    color: #00006b;
+    text-align: center;
+    font-size: 35px ;
+    border-bottom: none;
+    margin-bottom:0%;
+}
+.intro{
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 35px ;
+    margin-top: 10 px;
+}
+.sub{
+    margin-top: 0;
+    background-color: rgb(206, 201, 248);
+}
+h1{
+    font-family: Verdana;
+    background-color: #ccc;
+    color:#00006b ;
+    border-bottom:  solid #00006b;
+    font-size: 25px;
+    padding: 12px;
+}
+.subti {
+    font-size: 15px;
+}
+p{
+    font-size: 10px;
+}
+ul{
+    list-style-position:inside ;
+    font-size: 10px;
+    padding-left: 0;
+}
+.experiencia{
+    font-size: 13px;
+}
+.front{
+    margin-bottom: 35px;
+}
+a{
+    text-decoration: none;
+    color: #0000ff;
+}
+a:hover {
+    text-decoration: underline;
+}
+.menu {
+    text-align: center;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+.menu a {
+    background-color: #ccc;
+    padding: 16px;
+    display: block;
+}
+.menu a:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
